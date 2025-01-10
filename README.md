@@ -18,8 +18,10 @@ This project is a test harness for testing the Triangle Calculator REST API. The
    cd triangle-calculator-tests
 
 2. Install Dependencies
-npm install
+    ```sh
+   npm install
 
-3. Running Tests
-npm run test
+4. Running Tests
+    ```sh
+   npm run test
 
