@@ -31,12 +31,15 @@ This project is a test harness for testing the Triangle Calculator REST API. The
 
 6. Run test and generate report 
     ```sh
+
+    chmod +x run-tests.sh (to initialize script for first run)
+
    ./run-tests.sh (MacOS)
 
    Double-click the run-tests.bat (Windows)
 
 
-7. Running Tests with Allure Reporting 
+8. Running Tests with Allure Reporting 
 
 This project uses Allure to generate detailed test reports. Follow the steps below to set up and view Allure reports. 
 
