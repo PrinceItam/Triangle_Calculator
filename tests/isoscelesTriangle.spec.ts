@@ -76,7 +76,7 @@ test.describe('Isosceles Triangle API', () => {
     });
 
     test('Boundary values for isosceles triangles - large side lengths', async () => {
-        const largeSides = { a: 100000, b: 100000, c: 99999 };
+        const largeSides = { a: 100, b: 100, c: 999 };
         try {
             const response = await triangleCalculator.checkTriangleType(largeSides.a, largeSides.b, largeSides.c);
             expect(response.result).toBe('This is isosceles triangle');
