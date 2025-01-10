@@ -25,3 +25,26 @@ This project is a test harness for testing the Triangle Calculator REST API. The
     ```sh
    npm run test
 
+5. Generating Allure report
+   ```sh
+   allure serve allure-results
+
+6. Run test and generate report 
+    ```sh
+   ./run-tests.sh (MacOS)
+
+   Double-click the run-tests.bat (Windows)
+
+
+## Running Tests with Allure Reporting This project uses Allure to generate detailed test reports. Follow the steps below to set up and view Allure reports. 
+
+### Install Allure Command-Line Tool
+
+ 1. **MacOS**: Install Allure using Homebrew: 
+ ```bash 
+ brew install allure 
+ ``` 
+
+ 2. **Windows**: Download the Allure command-line tool from [Allure's GitHub releases](https://github.com/allure-framework/allure2/releases) and follow the installation instructions. 
+ 
+ 3. **Linux**: You can also use Homebrew on Linux, or download from [Allure's GitHub releases](https://github.com/allure-framework/allure2/releases) and follow the instructions.

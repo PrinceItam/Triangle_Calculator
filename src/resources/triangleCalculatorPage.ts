@@ -4,6 +4,7 @@ import { validateTriangle, validateResponse } from '../../schema_files/versatile
 const baseUrl = 'http://qa-task-env-1.eba-gpid92d6.eu-west-1.elasticbeanstalk.com';
 
 class TriangleCalculatorPage {
+    browserContext: any;
 
     private async fetchRequest(endpoint: string, method: string = 'GET', body?: object): Promise<any> {
         const options: RequestInit = {
