@@ -36,9 +36,12 @@ This project is a test harness for testing the Triangle Calculator REST API. The
    Double-click the run-tests.bat (Windows)
 
 
-## Running Tests with Allure Reporting This project uses Allure to generate detailed test reports. Follow the steps below to set up and view Allure reports. 
+7. Running Tests with Allure Reporting 
 
-### Install Allure Command-Line Tool
+This project uses Allure to generate detailed test reports. Follow the steps below to set up and view Allure reports. 
+
+
+Install Allure Command-Line Tool
 
  1. **MacOS**: Install Allure using Homebrew: 
  ```bash 
