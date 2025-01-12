@@ -20,10 +20,6 @@ class TriangleCalculatorPage {
         return response.json();
     }
 
-    async getVersion() {
-        return this.fetchRequest('/version');
-    }
-
     async checkTriangleType(a: number, b: number, c: number) {
         return this.fetchRequest('/', 'POST', { a, b, c });
     }
