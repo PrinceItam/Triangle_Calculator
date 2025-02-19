@@ -15,7 +15,7 @@ This project is a test harness for testing the Triangle Calculator REST API. The
 
    ```sh
    git clone https://github.com/PrinceItam/Triangle_Calculator.git
-   cd triangle-calculator-tests
+   cd Triangle-calculator-tests
 
 2. Install Dependencies
     ```sh
